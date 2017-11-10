@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>float</title>
+    <meta author="Didac">
+    <style>
+
+      .cuadrat{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        vertical-align: middle;
+        margin: 30px;
+        text-align: center ;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+
+      }
+
+        #primer{
+          border: 5px solid blue;
+          width: 95%;
+        }
+
+        #segon{
+          border: 5px solid green;
+          float: right;
+          width: 15%;
+          height: 400px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        #tercer{
+          border: 5px solid red;
+          float: left;
+          width: 15%;
+          height: 400px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        #quart{
+          border: 5px solid orange;
+          float: left;
+          width: 60%;
+          height: 600px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        #cinque{
+          border: 5px solid black;
+          clear: left;
+          width: 95%;
+        }
+
+    </style>
+
+  </head>
+  <body>
+
+      <div id="primer" class="cuadrat">
+        1
+      </div>
+
+      <div id="segon" class="cuadrat">
+        2
+      </div>
+
+      <div id="tercer" class="cuadrat">
+        3
+      </div>
+
+      <div id="quart" class="cuadrat">
+        4
+      </div>
+
+      <div id="cinque" class="cuadrat">
+        5
+      </div>
+
+
+
+  </body>
+</html>
