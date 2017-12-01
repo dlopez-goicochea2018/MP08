@@ -16,10 +16,11 @@ body{
 }
 
 #contenidor {
-  height: 1500px;
+  height: 3000px;
   width: 850px;
   background-color: #FFF;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #portada {
@@ -53,7 +54,6 @@ body{
   padding: 0;
   margin: 4px 0 0 192px;
   width: 477px;
-
 }
 
 #menu li {
@@ -84,6 +84,20 @@ body{
   margin: 10px 0;
   border: solid 1px #CCC;
   border-radius: 3px;
+  float: left;
+  clear: left;
+}
+
+.dreta {
+
+  width: 513px;
+  margin: 10px 0;
+  border: solid 1px #CCC;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  top: -538px;
+  overflow: hidden;
 }
 
 .esquerra h4 {
@@ -114,17 +128,11 @@ body{
   display: block;
 }
 
-.vivir {
-  list-style-image: url(icon/icones_domicili.png);
-}
+.vivir {list-style-image: url(icon/icones_domicili.png);}
 
-.trabajo {
-  list-style-image: url(icon/icones_feina.png);
-}
+.trabajo {list-style-image: url(icon/icones_feina.png);}
 
-.yo {
-  list-style-image: url(icon/cercles.png);
-}
+.yo {list-style-image: url(icon/cercles.png);}
 
 #fotos ul li {
   display: block;
@@ -147,21 +155,13 @@ body{
 }
 
 #f1 {background-image: url(img/f1.jpg);}
-
 #f2 {background-image: url(img/f2.jpg);}
-
 #f3 {background-image: url(img/f3.gif);}
-
 #f4 {background-image: url(img/f4.jpeg);}
-
 #f5 {background-image: url(img/f5.jpg);}
-
 #f6 {background-image: url(img/f6.jpg);}
-
 #f7 {background-image: url(img/f7.gif);}
-
 #f8 {background-image: url(img/f8.jpg);}
-
 #f9 {background-image: url(img/f9.gif);}
 
 
@@ -177,11 +177,105 @@ body{
   text-shadow: 0 0 3px black;
   text-indent: 5px;
   line-height: 178px;
-  background-image: url(img/f1.jpg);
 }
 
 #amics ul {
   overflow: hidden;
   margin: 0px;
   padding: 0;
+}
+
+#a1 {background-image: url(https://zruiz2018.github.io/MP08/s2m8uf103_ruiz/img/perfil.jpg);}
+#a2 {background-image: url(https://amoreno2018.github.io/MP08/s2m8uf103_moreno/img/perfil.jpg);}
+#a3 {background-image: url(https://rgarcial2018.github.io/MP08/s2m8uf103_garcia/img/perfil.jpg);}
+#a4 {background-image: url(https://jsanchez2018.github.io/MP08/s2m8uf103_sanchez/img/perfil.jpg);}
+#a5 {background-image: url(https://jsagrera2018.github.io/MP08/s2m8uf103_sagrera/img/perfil.jpg);}
+#a6 {background-image: url(https://kbaquerizo2018.github.io/MP08/s2m8uf103_baquerizo/img/perfil.jpg);}
+#a7 {background-image: url(https://fxolle2018.github.io/MP08/s2m8uf103_olle/img/perfil.jpg);}
+#a8 {background-image: url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg);}
+#a9 {background-image: url(https://calvarez2018.github.io/MP08/s2m8uf103_alvarez/img/perfil.jpg);}
+#a10 {background-image: url(https://aganoza2018.github.io/MP08/s2m8uf103_ganoza/img/perfil.jpg);}
+#a11 {background-image: url(https://acalvo2018.github.io/MP08/s2m8uf103_calvo/img/perfil.jpg);}
+#a12 {background-image: url(https://kvera2018.github.io/MP08/s2m8uf103_vera/img/perfil.jpg);}
+#a13 {background-image: url(https://mpanchame2018.github.io/MP08/s2m8uf103_panchame/img/perfil.jpg);}
+#a14 {background-image: url(https://jricart2018.github.io/MP08/s2m8uf103_ricart/img/perfil.jpg);}
+#a15 {background-image: url(https://sestall2018.github.io/MP08/s2m8uf103_estall/img/perfil.jpg);}
+#a16 {background-image: url(https://ielmajidi2018.github.io/MP08/s2m8uf103_elmajidi/img/perfil.jpg);}
+#a17 {background-image: url(https://npedraza2018.github.io/MP08/s2m8uf103_pedraza/img/perfil.jpg);}
+#a18 {background-image: url(https://rtirado2018.github.io/MP08/s2m8uf103_tirado/img/perfil.jpg);}
+
+
+
+
+
+
+#pensa ul{
+  background-color: #f5f6f8;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  color: #395ca9;
+}
+
+#pensa ul li{
+  float: left;
+  margin: 5px 10px 0 35px;
+  border-right: solid 1px grey;
+
+}
+
+#pensa ul li a{
+  display: block;
+  height: 35px;
+}
+
+#pensa ul li a:hover{
+  color: #000;
+  background-image: url(img/selector.gif);
+  background-repeat: no-repeat;
+  background-position: 35% 26px;
+}
+
+#pensa input{
+  width: 509px;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px grey;
+}
+
+.estado {list-style-image: url(img/estado.png);}
+.video {list-style-image: url(img/video.png);}
+.directo {list-style-image: url(img/directo.png);}
+
+/*-----muro----*/
+
+h5{
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
+}
+
+h6{
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
+}
+
+.aaa {
+padding: 10px 10px 10px 50px;
+background-image: url(img/perfil.jpg);
+background-repeat: no-repeat;
+background-size: 40px 40px;
+background-position: 10px 10px;
+}
+
+.post p, .post iframe, .post img {
+  font-size: 12px;
+  text-align: justify;
+  padding: 10px;
+  width: 493px;
 }
