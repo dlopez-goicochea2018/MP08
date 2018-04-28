@@ -1,0 +1,100 @@
+body{
+background-color: #FFF;
+font-family: roboto;
+height: 1920px;
+margin: 0;
+padding: 0;
+}
+
+
+/*------ cabezera / pie --*/
+
+#cabezera{
+  background-color: #037b9c;
+  height: 144px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+
+}
+
+#pie{
+  background-color: #037b9c;
+  height: 146px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+
+/*------ cabezera / pie --*/
+
+
+/*------ home --*/
+
+#muro{
+  background-color: #FFF;
+  color: black;
+  width: 50%;
+  height: 165px;
+  position: fixed;
+  top: 144px;
+}
+
+#muro2{
+  background-color: #63605E;
+  color: white;
+  width: 50%;
+  height: 165px;
+  left: 50%;
+  position: fixed;
+  top: 144px;
+}
+
+#muro3{
+  background-color: #63605E;
+  color: white;
+  width: 50%;
+  height: 165px;
+  position: fixed;
+  top: 144px;
+}
+
+#muro4{
+  background-color: #FFF;
+  color: black;
+  width: 50%;
+  height: 165px;
+  left: 50%;
+  position: fixed;
+  top: 144px;
+}
+
+.primero{
+  width: 95%;
+  height: 350px;
+}
+
+.publicacion{
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 95%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #999;
+}
+
+.ultimo{
+  width: 95%;
+  height: 200px;
+}
+
+p{
+  font-size: 50px;
+  text-align: center;
+
+
+}
+/*------ home --*/
